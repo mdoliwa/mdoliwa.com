@@ -2,6 +2,9 @@
 layout: default
 title: Projects
 ---
-# Projects page
+# Projects
 
-This page tells you a little bit about projects I'm working on.
+* ## [Local plants identification](https://www.facebook.com/miejskaprzyroda/) 
+I want to find out how many local plants I can identify in my neighborhood.
+For identification I use [Pl@ntNet app](https://plantnet.org/en/).
+
