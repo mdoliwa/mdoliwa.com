@@ -1,7 +1,3 @@
-.current {
-	color: green;
-}
-
 body{
 	margin: 40px auto;
 	max-width: 650px;
@@ -16,3 +12,20 @@ h1,h2,h3{
 }
 
 nav a { margin-right: 6px; }
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallery-item {
+	display: table;
+	margin-bottom: 1.5rem;
+	margin-right: 1rem;
+}
+
+.gallery-item-label {
+	display: table-caption;
+	caption-side: bottom;
+	text-align: center;
+	font-style: italic;
+}

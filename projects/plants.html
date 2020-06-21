@@ -1,0 +1,26 @@
+---
+name: Plants
+layout: default
+---
+<h1>Local plants identification</h1>
+
+<div class="gallery">
+	{% for item in site.data.plants %}
+		{% for image in site.static_files %}
+			{% assign thumbnail_item_filename = "thumbnail_" | append: item.filename %}
+			{% if image.path contains thumbnail_item_filename %}
+			<div class="gallery-item">
+				<div class="gallery-item-content">
+					{% assign full_size_image_path = image.path | remove: "thumbnail_" %}
+					<a href="{{ full_size_image_path }}">
+						<img src="{{ site.baseurl }}{{ image.path }}" alt="image"/>
+					</a>
+				</div>
+				<div class="gallery-item-label">
+					<a href="{{ item.url }}">{{ item.name }}</a>
+				</div>
+			</div>
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+</div>

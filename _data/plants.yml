@@ -1,0 +1,48 @@
+- name: Veronica chamaedrys L.
+  filename: veronica_chamaedrys
+  url: https://en.wikipedia.org/wiki/Veronica_chamaedrys
+- name: Matricaria chamomilla L.
+  filename: matricaria_chamomilla
+  url: https://en.wikipedia.org/wiki/Matricaria_chamomilla
+- name: Aegopodium podagraria L.
+  filename: aegopodium_podagraria
+  url: https://en.wikipedia.org/wiki/Aegopodium_podagraria
+- name: Lotus corniculatus L.
+  filename: lotus_corniculatus
+  url: https://en.wikipedia.org/wiki/Lotus_corniculatus
+- name: Erodium cicutarium (L.) L`Her.
+  filename: erodium_cicutarium
+  url: https://en.wikipedia.org/wiki/Erodium_cicutarium
+- name: Silene latifolia Poir.
+  filename: silene_latifolia
+  url: https://en.wikipedia.org/wiki/Silene_latifolia
+- name: Bellis perennis
+  filename: bellis_perennis
+  url: https://en.wikipedia.org/wiki/Bellis_perennis
+- name: Symphytum officinale L.
+  filename: symphytum_officinale
+  url: https://en.wikipedia.org/wiki/Symphytum_officinale
+- name: Erigeron annuus (L.) Pers
+  filename: erigeron_annuus
+  url: https://en.wikipedia.org/wiki/Erigeron_annuus
+- name: Geranium pyrenaicum Burm.
+  filename: geranium_pyrenaicum
+  url: https://en.wikipedia.org/wiki/Geranium_pyrenaicum
+- name: Trifolium repens L.
+  filename: trifolium_repens
+  url: https://en.wikipedia.org/wiki/Trifolium_repens
+- name: Echium vulgare L.
+  filename: echium_vulgare
+  url: https://en.wikipedia.org/wiki/Echium_vulgare
+- name: Chelidonium majus L.
+  filename: chelidonium_majus
+  url: https://en.wikipedia.org/wiki/Chelidonium_majus
+- name: Malva sylvestris L.
+  filename: malva_sylvestris
+  url: https://en.wikipedia.org/wiki/Malva_sylvestris
+- name: Securigera varia
+  filename: securigera_varia
+  url: https://en.wikipedia.org/wiki/Securigera_varia
+- name: Trifolium pratense L.
+  filename: trifolium_pratense
+  url: https://en.wikipedia.org/wiki/Trifolium_pratense
