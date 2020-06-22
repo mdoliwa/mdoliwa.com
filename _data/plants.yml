@@ -46,3 +46,7 @@
 - name: Trifolium pratense L.
   filename: trifolium_pratense
   url: https://en.wikipedia.org/wiki/Trifolium_pratense
+- name: Hypericum perforatum L.
+  filename: hypericum_perforatum
+  url: https://en.wikipedia.org/wiki/Hypericum_perforatum
+
