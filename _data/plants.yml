@@ -49,4 +49,15 @@
 - name: Hypericum perforatum L.
   filename: hypericum_perforatum
   url: https://en.wikipedia.org/wiki/Hypericum_perforatum
-
+- name: Reseda lutea L.
+  filename: reseda_lutea
+  url: https://en.wikipedia.org/wiki/Reseda_lutea
+- name: Oenothera biennis L.
+  filename: oenothera_biennis
+  url: https://en.wikipedia.org/wiki/Oenothera_biennis
+- name: Cichorium intybus L.
+  filename: cichorium_intybus
+  url: https://en.wikipedia.org/wiki/Chicory
+- name: Geranium pratense L.
+  filename: geranium_pratense
+  url: https://en.wikipedia.org/wiki/Geranium_pratense
