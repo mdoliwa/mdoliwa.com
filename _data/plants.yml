@@ -61,3 +61,27 @@
 - name: Geranium pratense L.
   filename: geranium_pratense
   url: https://en.wikipedia.org/wiki/Geranium_pratense
+- name: Achillea millefolium L.
+  filename: achillea_millefolium
+  url: https://en.wikipedia.org/wiki/Achillea_millefolium
+- name: Anchusa officinalis L.
+  filename: anchusa_officinalis
+  url: https://en.wikipedia.org/wiki/Anchusa_officinalis
+- name: Berteroa incana (L.) DC.
+  filename: berteroa_incana
+  url: https://en.wikipedia.org/wiki/Berteroa_incana
+- name: Onopordum acanthium L.
+  filename: onopordum_acanthium
+  url: https://en.wikipedia.org/wiki/Onopordum_acanthium
+- name: Vicia cracca L.
+  filename: vicia_cracca
+  url: https://en.wikipedia.org/wiki/Vicia_cracca
+- name: Tanacetum vulgare L.
+  filename: tanacetum_vulgare
+  url: https://en.wikipedia.org/wiki/Tansy
+- name: Trifolium arvense L.
+  filename: trifolium_arvense
+  url: https://en.wikipedia.org/wiki/Trifolium_arvense
+- name: Calystegia sepium (L.) R.Br.
+  filename: calystegia_sepium
+  url: https://en.wikipedia.org/wiki/Calystegia_sepium
