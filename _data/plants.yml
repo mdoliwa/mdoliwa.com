@@ -85,3 +85,6 @@
 - name: Calystegia sepium (L.) R.Br.
   filename: calystegia_sepium
   url: https://en.wikipedia.org/wiki/Calystegia_sepium
+- name: Jacobaea vulgaris Gaertn.
+  filename: jacobaea_vulgaris
+  url: https://en.wikipedia.org/wiki/Jacobaea_vulgaris
