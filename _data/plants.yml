@@ -88,3 +88,9 @@
 - name: Jacobaea vulgaris Gaertn.
   filename: jacobaea_vulgaris
   url: https://en.wikipedia.org/wiki/Jacobaea_vulgaris
+- name: Centaurea jacea L. 
+  filename: centaurea_jacea
+  url: https://en.wikipedia.org/wiki/Centaurea_jacea
+- name: Arctium minus (Hill) Bernh.
+  filename: arctium_minus
+  url: https://en.wikipedia.org/wiki/Arctium_minus
