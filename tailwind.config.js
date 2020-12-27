@@ -3,6 +3,9 @@ module.exports = {
 		'./**/*.html'
 	],
   theme: {
+		fontFamily: {
+			sans: ['Inter', 'Helvetica', 'sans-serif'],
+		},
     extend: {},
   },
   variants: {
