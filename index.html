@@ -22,18 +22,17 @@ title: "Happy Jekylling!"
 </div>
 
 <div>
-	<h2 class="text-2xl mb-3">Latest projects</h2>
+	{% if site.projects.size > 0 %}
+		<h2 class="text-2xl mb-3">Latest projects</h2>
+	{% endif %}
 	<ul>
-		<li class="mb-1"><a class="underline text-blue-900" href="#">Is your content too long? Not long enough?</a></li> 
-		<li class="mb-1"><a class="underline text-blue-900" href="#">Marooned At Work</a></li>
-		<li class="mb-1"><a class="underline text-blue-900" href="#">Amy Hoy's Totally and Completely Biased Review of The Tiny MBA</a></li>
-		<li class="mb-1"><a class="underline text-blue-900" href="#">Get your business out of a rut...using time travel</a></li>
-		<li class="mb-1"><a class="underline text-blue-900" href="#">Vote</a></li>
-		<li class="mb-1"><a class="underline text-red-900" href="#">Two high-impact changes to our flagship, 30x500</a></li>
-		<li class="mb-1"><a class="underline text-blue-900" href="#">Why we removed The Tiny MBA from Amazon's Kindle store.</a></li>
-		<li class="mb-1"><a class="underline text-blue-900" href="#">New Book Pre-order Sale: The Tiny MBA</a></li>
-		<li class="mb-1"><a class="underline text-blue-900" href="#">How to overcome the fear of putting yourself out there</a></li>
-		<li class="mb-1"><a class="underline text-blue-900" href="#">Realtalk: list size, conversion rates, and ACTUAL subscribers</a></li>
+		{% for project in site.projects limit:10 %}
+			<li class="mb-1">
+				<a href="{{project.url}}" class="underline text-blue-900" href="#">{{project.name}}</a>
+			</li> 
+		{% endfor %}
 	</ul>
-	<p class="mt-4 text-base"><a class="underline text-blue-900" href="#">More projects ➝</a></p>
+	{% if site.projects.size > 10 %}
+		<p class="mt-4 text-base"><a class="underline text-blue-900" href="#">More projects ➝</a></p>
+	{% endif %}
 </div>
