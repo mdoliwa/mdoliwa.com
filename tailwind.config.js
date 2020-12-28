@@ -4,12 +4,14 @@ module.exports = {
 	],
   theme: {
 		fontFamily: {
-			sans: ['Inter', 'Helvetica', 'sans-serif'],
+			sans: ['Inter', 'sans-serif'],
 		},
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+			textColor: ['visited'],
+		},
   },
   plugins: [],
 }

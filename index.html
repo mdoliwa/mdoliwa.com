@@ -1,23 +1,24 @@
 ---
 layout: default
-title: "Happy Jekylling!"
 ---
 <div class="mb-6">
-	Hey, I'm Andrew. I'm a software engineer and writer. I build things that make people's lives easier. Catch me in real time on Twitter. Or judge my green squares on GitHub.
+	<p>
+	Hi, I'm Marcin. I'm a software developer living in Warsaw, Poland. I like to build software and write about things I learned, discovered or just found interesting while doing it.
+	</p>
 </div>
 <div class="mb-6">
 	{% if site.posts.size > 0 %}
-		<h2 class="text-2xl mb-3">Latest posts</h2>
+		<h2 class="text-2xl mb-3">Latest articles</h2>
 	{% endif %}
 	<ul>
 		{% for post in site.posts limit:10 %}
 			<li class="mb-1">
-				<a href="{{post.url}}" class="underline text-blue-900" href="#">{{post.title}}</a>
+				<a href="{{post.url}}" class="underline text-blue-900 visited:text-red-800">{{post.title}}</a>
 			</li> 
 		{% endfor %}
 	</ul>
 	{% if site.posts.size > 10 %}
-		<p class="mt-4 text-base"><a class="underline text-blue-900" href="#">More posts ➝</a></p>
+		<p class="mt-4 text-base"><a class="underline text-blue-900">More articles ➝</a></p>
 	{% endif %}
 </div>
 
@@ -28,7 +29,7 @@ title: "Happy Jekylling!"
 	<ul>
 		{% for project in site.projects limit:10 %}
 			<li class="mb-1">
-				<a href="{{project.url}}" class="underline text-blue-900" href="#">{{project.name}}</a>
+				<a href="{{project.url}}" class="underline text-blue-900 visited:text-red-800" href="#">{{project.name}}</a>
 			</li> 
 		{% endfor %}
 	</ul>
