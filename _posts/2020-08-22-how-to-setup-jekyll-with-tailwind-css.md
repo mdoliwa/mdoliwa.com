@@ -2,6 +2,7 @@
 layout: post
 title: "How to setup Jekyll with Tailwind CSS?"
 date: 2020-08-22 00:04:53 +0200
+redirect_from: /2020/08/22/how-to-setup-jekyll-with-tailwind-css.html
 ---
 I tried it before and had some problems. This time it went smooth so I decided to write it down. Hope it will help someone.
 

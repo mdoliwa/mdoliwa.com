@@ -11,3 +11,4 @@ collections:
 
 plugins:
   - jekyll-postcss
+  - jekyll-redirect-from
