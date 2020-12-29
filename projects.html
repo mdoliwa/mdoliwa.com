@@ -2,4 +2,15 @@
 layout: default
 title: Projects
 ---
-Hello Projects
+<div>
+	{% if site.projects.size > 0 %}
+		<h2 class="text-2xl mb-3">Projects</h2>
+	{% endif %}
+	<ul>
+		{% for project in site.projects %}
+			<li class="mb-1">
+				<a href="{{project.url}}" class="underline text-blue-900 visited:text-red-800" href="#">{{project.name}}</a>
+			</li> 
+		{% endfor %}
+	</ul>
+</div>

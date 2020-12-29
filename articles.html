@@ -2,4 +2,14 @@
 layout: default
 title: Articles
 ---
-Hello World
+<div>
+	<h2 class="text-2xl mb-3">Articles</h2>
+
+	<ul>
+		{% for post in site.posts %}
+			<li class="mb-1">
+				<a href="{{post.url}}" class="underline text-blue-900 visited:text-red-800">{{post.title}}</a>
+			</li> 
+		{% endfor %}
+	</ul>
+</div>
