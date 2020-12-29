@@ -8,9 +8,9 @@
 
 @import "tailwindcss/utilities";
 
-.post p { @apply mb-5; }
-.post h1 { @apply text-2xl mb-4 } 
-.post h2 { @apply text-xl mb-3 }
+.article p { @apply mb-5; }
+.article h1 { @apply text-2xl mb-4 } 
+.article h2 { @apply text-xl mb-3 }
 
 figure.highlight, pre.highlight {
 	@apply bg-gray-100;
