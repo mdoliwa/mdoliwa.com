@@ -4,71 +4,79 @@ title: "How to setup Jekyll with Tailwind CSS?"
 date: 2020-08-22 00:04:53 +0200
 redirect_from: /2020/08/22/how-to-setup-jekyll-with-tailwind-css.html
 ---
-I tried it before and had some problems. This time it went smooth so I decided to write it down. Hope it will help someone.
+Let's start with blank Jekyll website by running `jekyll new mysite --blank`. Change working directory to `mysite`.
 
-You probably have Jekyll website setup already. In my case I wanted to build it from scratch and initialized it with `jekyll new mysite --blank`. It creates Jekyll scaffolding with empty files.
+## 1. Install required packages
+`npm install tailwindcss@latest postcss@latest autoprefixer@latest postcss-import@latest`
 
-## 1. Install Tailwind via npm
-```bash
-# Using npm
-npm install tailwindcss
+## 2. Setup PostCSS
+Create Gemfile, add `jekyll-postcss` gem to it and run `bundle install`  
+  
+```ruby
+# Gemfile
 
-# Using Yarn
-yarn add tailwindcss
-```
-## 2. Add Tailwind to your CSS
-In my case I had to add this to `assets/css/main.scss` file:
+source "https://rubygems.org"
 
-```sass
-@tailwind base;
-
-@tailwind components;
-
-@tailwind utilities;
-```
-## 3. Create Tailwind config file
-Run `npx tailwindcss init` to create `tailwind.config.js` file.
-
-## 4. Setup PostCSS with Tailwind
-Add `jekyll-postcss` to your `Gemfile` and run `bundle install`
-```
-group :jekyll_plugins do
-  gem "jekyll-postcss"
-end
+gem "jekyll", "~> 4.1.1"
+gem 'jekyll-postcss'
 ```
 
-Then add `jekyll-postcss` to your plugins in `_config.yml`:
-```yaml
+Add `jekyll-postcss` plugin to `_config.yml` file  
+
+```yml
+# _config.yml
+
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+
 plugins:
   - jekyll-postcss
 ```
 
-Now create or edit `postcss.config.js` file by adding tailwind and autoprefixer:
+and create `postcss.config.js` file.
+
 ```js
+// postcss.config.js
+
 module.exports = {
   plugins: [
-    // ...
-    require('tailwindcss')('./tailwind.config.js'),
+    require('postcss-import'),
+    require('tailwindcss'),
     require('autoprefixer'),
-    // ...
   ]
 }
 ```
-
-## 5. Remove unused CSS
-When you deploy it to production it would be good to remove unused css. To do this you need to add `purge` option to your `tailwind.config.js`.
-In my case I pointed Tailwind to check `html` files in `_site` and all its subdirectories. My config file looks like this:
+## 3. Setup Tailwind CSS config file
+Run `npx tailwindcss init` to create empty Tailwind config file.
 ```js
+//tailwind.config.js
+
 module.exports = {
-	purge: ['./_site/**/*.html'],
-	theme: {
-		extend: {},
-	},
-	variants: {},
-	plugins: [],
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 }
 ```
 
-Whenever you build your Jekyll site with `NODE_ENV` environment variable set to `production`, Tailwind will automatically purge unused styles from your CSS.
+## 4. Import Tailwind stylesheets to your CSS file.
+Edit `assets/css/main.scss` file to make it look like this:
 
-Now you can copy/paste some Tailwind code to check if it's working (I hope it its :)
+```css
+---
+---
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+```
+
+Run `jekyll serve`. Jekyll is using Taiwlind CSS now.
