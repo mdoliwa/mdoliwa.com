@@ -7,9 +7,19 @@
 
 @import "tailwindcss/utilities";
 
-.article p { @apply mb-5; }
+ol { 
+  @apply list-decimal;
+  li { @apply list-inside }
+}
+
+.article p { @apply mb-5 }
 .article h1 { @apply text-2xl mb-4 }
 .article h2 { @apply text-xl mb-3 }
+.article a { 
+  @apply underline;
+  @apply text-blue-900;
+  @apply visited:text-red-800;
+}
 
 .highlight {
 	@apply text-sm;
