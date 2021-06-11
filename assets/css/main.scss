@@ -12,7 +12,7 @@ ol {
   li { @apply list-inside }
 }
 
-.article p { @apply mb-5 }
+.article p, .article ol { @apply mb-5 }
 .article h1 { @apply text-2xl mb-4 }
 .article h2 { @apply text-xl mb-3 }
 .article a { 
