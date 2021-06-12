@@ -146,7 +146,7 @@ end
 repositories
   .sort{|repo| repo.watchers}
   .first(10)
-  .each.with_index(1){|repo, index| "#{index}. [#{repository.full_name}](#{repository.url})"}
+  .each.with_index(1){|repo, index| "#{index}. [#{repo.full_name}](#{repo.url})"}
 ```
 
 and the list is ready to copy/paste :)
