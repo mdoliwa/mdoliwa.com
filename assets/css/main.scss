@@ -22,7 +22,7 @@ ol {
 }
 
 .highlight {
-	@apply text-sm;
+	@apply text-base;
 }
 figure.highlight, pre.highlight {
 	@apply bg-gray-100;
@@ -32,7 +32,7 @@ figure.highlight, pre.highlight {
 
 code.highlighter-rouge {
 	@apply bg-gray-200 p-1;
-	@apply text-sm;
+	@apply text-base;
 }
 
 .highlight  { background: #ffffff; }
