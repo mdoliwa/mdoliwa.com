@@ -2,6 +2,7 @@
 layout: post
 title: "My approach to writing Ruby scripts."
 date: 2021-06-10 00:38:00 +0200
+redirect_from: /articles/my-approach-to-writing-ruby-scripts
 ---
 
 Whenever I get asked what’s the best way to learn a programming language, my answer is by building things. I suggest starting by writing simple Ruby scripts that perform some useful tasks.

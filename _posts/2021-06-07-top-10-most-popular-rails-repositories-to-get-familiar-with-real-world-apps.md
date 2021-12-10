@@ -2,6 +2,7 @@
 layout: post
 title: "Top 10 most popular Rails repositories to get familiar with real-world apps."
 date: 2021-06-07 23:38:00 +0200
+redirect_from: /articles/top-10-most-popular-rails-repositories-to-get-familiar-with-real-world-apps
 ---
 I started working as a Rails developer 4 years ago, after almost 10 years off-break from coding. I learned Ruby and Ruby on Rails by doing some tutorials and building small projects. When I got my first job offer I was a little scared as I was not familiar with large, existing codebases. All I knew were my little pet projects.
 
