@@ -9,6 +9,8 @@ collections:
     permalink: /:collection/:title
     output: true
 
+postcss:
+  cache: false
 plugins:
   - jekyll-postcss
   - jekyll-redirect-from

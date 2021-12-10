@@ -1,6 +1,8 @@
 module.exports = {
+  mode: 'jit',
 	purge: [
-		'./**/*.html'
+		'./**/*.html',
+    './*.html'
 	],
   theme: {
 		fontFamily: {
