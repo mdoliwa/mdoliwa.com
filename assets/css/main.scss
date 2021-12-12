@@ -13,8 +13,8 @@ ol {
 }
 
 .article p, .article ol { @apply mb-5 }
-.article h1 { @apply text-2xl mb-4 }
-.article h2 { @apply text-xl mb-3 }
+.article h1 { @apply text-2xl mb-4 font-bold }
+.article h2 { @apply text-xl mb-3 font-bold }
 .article a { 
   @apply underline;
   @apply text-blue-900;
