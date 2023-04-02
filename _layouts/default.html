@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <nav class="flex justify-between">
+        <div class="text-xl">
+          Marcin Doliwa's Site
+        </div>
+        <div>
+          <a href="#">Posts</a>
+          <a href="#">Projects</a>
+        </div>
+      </nav>
+    </header>
+    {{ content }}
+  </body>
+</html>
