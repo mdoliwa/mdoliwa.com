@@ -1,0 +1,4 @@
+- name: PlayCells.com
+  url: https://playcells.com
+  year: 2023
+  description: Game inspired by Game of Life.

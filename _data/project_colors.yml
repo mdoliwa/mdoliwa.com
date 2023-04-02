@@ -1,0 +1,4 @@
+in_progress: blue #text-blue-900 bg-blue-100
+closed: red #text-red-900 bg-red-100
+sold: amber #text-amber-900 bg-amber-100
+live: green #text-green-900 bg-green-100

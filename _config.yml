@@ -1,9 +1,10 @@
-url: ''
-baseurl: ''
-title: 'Jekyllwind'
-
+url: 'https://mdoliwa.com'
+baseurl: '/'
+title: "Marcin Doliwa"
+  
 plugins:
   - jekyll-postcss
+  - jekyll-titleize
 
 postcss:
   cache: false
