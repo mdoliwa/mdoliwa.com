@@ -3,6 +3,8 @@ layout: post
 title: "How to setup Jekyll with Tailwind CSS?"
 date: 2020-08-22 00:04:53 +0200
 ---
+*This article is outdated, for current Jekyll and Tailwind setup check [Giorgi's tutorial and his boilterplate](https://mzrn.sh/2022/04/09/starting-a-blank-jekyll-site-with-tailwind-css-in-2022/)*
+
 Let's start with blank Jekyll website by running `jekyll new mysite --blank`. Change working directory to `mysite`.
 
 ## 1. Install required packages
