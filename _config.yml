@@ -1,6 +1,7 @@
 url: 'https://mdoliwa.com'
 baseurl: '/'
 title: "Marcin Doliwa"
+permalink: /:title
   
 plugins:
   - jekyll-postcss
