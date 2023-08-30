@@ -1,12 +1,12 @@
-- name: PlayCells.com
-  url: https://playcells.com
+- name: PracaNauczyciel.pl
+  url: https://pracanauczyciel.pl
   status: live
   year: 2023
   description: >
-    Game inspired by Game of Life.
+    Job board for teachers in Poland.
 
-- name: RoboFairy.com
+- name: Zdrobnienia.pl
   status: in_progress
   year: 2023
   description: >
-    Interactive, AI generated, stories for kids.
+    A simple search engine for Polish diminutives.
