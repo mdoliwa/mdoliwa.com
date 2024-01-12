@@ -1,3 +1,10 @@
+- name: NoweUlice.pl
+  url: https://noweulice.pl
+  status: live
+  year: 2023
+  description: >
+    Daily updated list of new streets in Poland.
+
 - name: Zdrobnienia.pl
   url: https://zdrobnienia.pl
   status: live
@@ -7,7 +14,7 @@
 
 - name: PracaNauczyciel.pl
   url: https://pracanauczyciel.pl
-  status: live
+  status: closed
   year: 2023
   description: >
     Job board for teachers in Poland.
