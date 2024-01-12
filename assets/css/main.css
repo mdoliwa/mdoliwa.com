@@ -5,13 +5,15 @@
 @tailwind components;
 @tailwind utilities;
 
+a {
+  @apply visited:text-red-800;
+}
 .post p, .post ol { @apply mb-5 }
 .post h1 { @apply text-2xl mb-4 font-bold }
 .post h2 { @apply text-xl mb-3 font-bold }
 .post a { 
   @apply underline;
   @apply text-blue-900;
-  @apply visited:text-red-800;
 }
 
 .highlight {
