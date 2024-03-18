@@ -17,17 +17,17 @@ a {
 }
 
 .highlight {
-	@apply text-base;
+  @apply text-base;
 }
 figure.highlight, pre.highlight {
-	@apply bg-gray-100;
-	@apply px-5 py-4 mb-5;
-	overflow: auto;
+  @apply bg-gray-100;
+  @apply px-5 py-4 mb-5;
+  overflow: auto;
 }
 
 code.highlighter-rouge {
-	@apply bg-gray-200 p-1;
-	@apply text-base;
+  @apply bg-gray-200 p-1;
+  @apply text-base;
 }
 
 .highlight  { background: #ffffff; }
