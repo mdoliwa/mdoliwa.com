@@ -10,39 +10,8 @@ title: "Home"
       {% for post in site.posts %}
         <li class="mb-2 grid grid-cols-5 items-baseline">
           <a class="col-span-4 text-lg text-blue-900 underline" href="{{ post.url }}">{{ post.title }}</a>
-          <span class="justify-self-end text-sm text-gray-600 font-mono">{{ post.date | date: "%Y-%m-%d"}}</span>
         </li>
       {% endfor %}
     </ul>
   </div>
-
-  <div class="mt-8">
-    <h2 class="text-2xl font-medium mb-3">Projects</h2>
-    <ul>
-      {% for project in site.data.projects %}
-        <li class="mb-1 flex justify-between items-baseline mb-3">
-          <div>
-            <div>
-              {% if project.url == null %}
-                <span class="text-lg">{{ project.name }}</span>
-              {% else %}
-                <a class="text-lg text-blue-900 underline" href="{{ project.url }}">{{ project.name }}</a>
-              {% endif %}
-              <span class="text-sm">{{ project.year }}</span>
-              </div>
-            <p>{{project.description}} </p>
-          </div>
-          {% assign status = project.status %}
-          {% assign colors = site.data.project_colors %}
-          
-          <span class="hidden sm:inline text-xs bg-{{ colors[status] }}-100 py-0.5 px-1.5 rounded font-bold text-{{ colors[status] }}-900">
-            {{ status | replace: "_", " " | titleize }}
-          </span>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-  <footer class="mt-8 italic">
-    Follow me on Twitter <a class="text-blue-900 underline" href="https://twitter.com/mdoliwa">@mdoliwa</a>
-  </footer>
 </div>

@@ -17,16 +17,23 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
-    <header class="mx-auto max-w-[80ch] mt-6 mb-8 px-4">
-      <nav class="flex items-center justify-between">
-        <a href="/" class="font-medium text-xl visited:text-black">{{ site.title }}</a>
-        <ul class="text-lg flex">
-          <!-- <li class="mr-3"><a href="#">Posts</a></li> -->
-          <!-- <li class="mr-3"><a href="#">Projects</a></li> -->
-          <!-- <li><a href="#">About Me</a></li> -->
-        </div>
-      </nav>
-    </header>
+    <div class="border-b mb-6 pb-4 pt-4">
+      <header class="mx-auto max-w-[80ch] px-4">
+        <nav class="flex items-center justify-between">
+          <a href="/" class="font-medium text-xl visited:text-black">{{ site.title }}</a>
+          <ul class="text-lg flex">
+            <!-- <li class="mr-3"><a href="#">Posts</a></li> -->
+            <!-- <li class="mr-3"><a href="#">Projects</a></li> -->
+            <!-- <li><a href="#">About Me</a></li> -->
+          </ul>
+        </nav>
+      </header>
+    </div>
     {{ content }}
+    <div class="border-t pb-4 pt-4">
+      <footer class="mx-auto max-w-[80ch] px-4">
+        Follow me on Twitter <a class="text-blue-900 underline" href="https://twitter.com/mdoliwa">@mdoliwa</a>
+      </footer>
+    </div>
   </body>
 </html>
