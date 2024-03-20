@@ -14,6 +14,7 @@ a {
 .post p, .post ol { @apply mb-5 }
 .post h1 { @apply text-2xl mb-4 font-bold }
 .post h2 { @apply text-xl mb-3 font-bold }
+.post h3 { @apply mb-2 font-bold }
 .post a { 
   @apply underline;
   @apply text-blue-900;
