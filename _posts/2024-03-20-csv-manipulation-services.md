@@ -12,3 +12,11 @@ This tweet inspired me to conduct keyword research on various CSV manipulation a
 1. **SEO Potential**: Attracting significant SEO traffic for queries related to CSV file transformation is feasible.
 2. **Customer Conversion**: It's possible to convert a segment of this traffic into paying customers for the proposed services.
 3. **Revenue Model**: Some of these services will be recurring, and can be charged at over $99 per month.
+
+## Napkin math
+By targeting 20 articles at keywords with a traffic range of 0-10, I anticipate attracting approximately 1000 visits. With a 1% conversion rate for custom services, this strategy is expected to yield 10 customers. Given the service price is $100, securing one of these customers for a recurring service would not only generate a total of $900 from 9 one-time purchases but also contribute an additional $100 to the MRR each month from the recurring service.
+
+## Experiments
+### SEO Potential
+1. Identify 20 CSV transformation-oriented phrases that have some traffic but low competition.
+2. Develop a simple website featuring articles and tools centered around these keywords. The goal is to rank on Google and attract 1000 visits per month within a 3-month timeframe.
