@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Let's experiment."
+title: "Let's experiment"
 date: 2024-03-19
 ---
 Here I am, once again, in a familiar situation. This time, it's with [RubyPilot.com, a Ruby resources aggregator](https://rubypilot.com) and my latest side project. As I approach the finish line, questions begin to surface. How will I drive traffic to the site? Why would someone choose it over browsing Reddit? Perhaps I should narrow the scope and create a directory of apps built with Rails. But then, who would be interested in that, and how will I monetize it?
