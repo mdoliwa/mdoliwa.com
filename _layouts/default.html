@@ -8,18 +8,18 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏡</text></svg>">
   </head>
   <body>
-    <div class="mx-auto flex justify-between items-baseline max-w-screen-md mt-8 mb-10">
-      <div class="font-bold text-lg flex items-baseline">
-        <a class="text-3xl no-underline mr-2" href="{{site.url}}">🏡</a>
+    <div class="mx-auto flex flex-col sm:flex-row justify-between items-baseline max-w-screen-md mt-8 mb-10 px-5">
+      <div class="font-bold text-lg flex items-baseline mb-2 sm:mb-0">
+        <a class="text-3xl no-underline mr-1" href="{{site.url}}">🏡</a>
         <a href="{{site.url}}">{{ site.title }}</a>
       </div>
       <div class="flex">
-        <a class="mr-3" href="/posts">Posts</a>
-        <a class="mr-3" href="/notes">Notes</a>
+        <a class="mr-2" href="/posts">Posts</a>
+        <a class="mr-2" href="/notes">Notes</a>
         <a href="/projects">Projects</a>
       </div>
     </div>
-    <div class="mx-auto max-w-screen-md text-lg">
+    <div class="mx-auto max-w-screen-md text-lg px-5">
       {{ content }}
     </div>
   </body>
