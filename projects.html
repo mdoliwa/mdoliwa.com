@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Projects"
+---
+<h1 class="text-3xl font-bold mb-8">Projects</h1>
+
+{% if site.projects.size > 0 %}
+  <ul>
+    {% for project in site.projects %}
+      <li>
+        <a href="{{ project.url }}">{{ project.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p><em>No projects have been added just yet. I'm working on it, stay tuned!</em></p>
+{% endif %}

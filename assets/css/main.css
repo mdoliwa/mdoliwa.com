@@ -1,0 +1,19 @@
+---
+---
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a { 
+  @apply underline underline-offset-4 decoration-gray-300;
+}
+
+.post {
+  h1 {
+    @apply text-3xl mb-8 font-bold;
+  }
+  p {
+    @apply mb-4;
+  }
+}

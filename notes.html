@@ -1,0 +1,18 @@
+---
+layout: default
+title: "Notes"
+---
+<h1 class="text-3xl font-bold mb-8">Notes</h1>
+
+{% if site.notes.size > 0 %}
+  <ul>
+    {% for note in site.notes %}
+      <li>
+        <a href="{{ note.url }}">{{ note.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p><em>No notes have been added just yet. I'm working on it, stay tuned!</em></p>
+{% endif %}
+
