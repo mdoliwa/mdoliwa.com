@@ -22,6 +22,9 @@ a {
   h1 {
     @apply text-2xl font-bold;
   }
+  h3 {
+    @apply text-lg font-bold mt-4;
+  }
   p {
     @apply mt-4;
   }
