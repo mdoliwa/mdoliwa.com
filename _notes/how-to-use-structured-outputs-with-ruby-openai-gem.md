@@ -6,8 +6,8 @@ In my case I had to fetch diminutives of a term, to get a json like this:
 
 ```json
 {
-  term: "Anna",
-  diminutives: ["Annie", "Ann", "Anny"]
+  "term": "Anna",
+  "diminutives": ["Annie", "Ann", "Anny"]
 }
 ```
 
