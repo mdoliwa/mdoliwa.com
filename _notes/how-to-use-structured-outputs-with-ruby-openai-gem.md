@@ -56,4 +56,6 @@ response = OpenAI::Client.new.chat(
 ```
 
 ### How to output empty array when using Structured Outputs?
-Looks like I cannot use `"minItems": 0` as it's not supported yet. What I found is that I can set `"type": ["array", "null"]` and it works, returns empty diminutives array for terms like "asasasaa".
+Looks like I cannot use `"minItems": 0` as it's not supported yet. What I found is that I can set `"type": ["array", "null"]` and it ~~works~~ somtimes work, returns empty diminutives array  or `null` value for terms like "asasasaa".  
+I'm using it in my Rails app working with polish diminutives [Zdrobnienia.pl](https://zdrobnienia.pl) so I wrapped it in `Array.wrap()` which returns empty array for `nil`.
+
