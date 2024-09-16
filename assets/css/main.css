@@ -39,6 +39,11 @@ div.highlight {
   @apply overflow-x-scroll;
 }
 
+code.highlighter-rouge {
+  @apply p-1 rounded;
+  background-color: #818b981f;
+}
+
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight, .highlight .w {
