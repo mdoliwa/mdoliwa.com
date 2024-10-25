@@ -17,11 +17,6 @@ defaults:
       type: "notes"
     values:
       layout: "note"
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
 
 plugins:
   - jekyll-postcss
