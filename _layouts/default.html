@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏡</text></svg>">
   </head>
-  <body>
-    <div class="mx-auto flex flex-col sm:flex-row justify-between items-baseline max-w-screen-md mt-8 mb-10 px-5">
+  <body class="max-w-4xl px-5 mx-auto">
+    <header class="mx-auto flex flex-col sm:flex-row justify-between items-baseline mt-8 mb-10">
       <div class="font-bold text-lg flex items-baseline mb-2 sm:mb-0">
         <a class="text-3xl no-underline mr-1" href="{{site.url}}">🏡</a>
         <a href="{{site.url}}">{{ site.title }}</a>
       </div>
-      <div class="flex">
-        <a class="mr-2" href="/posts">Posts</a>
-        <a class="mr-2" href="/notes">Notes</a>
-        <a href="/projects">Projects</a>
-      </div>
-    </div>
-    <div class="mx-auto max-w-screen-md text-lg px-5">
+    </header>
+
+    <div class="mx-auto text-lg">
       {{ content }}
     </div>
+
+    <footer class="mt-16 text-base">
+      <p>If you want to contact me, DM me at <a href="https://x.com/mdoliwa">@mdoliwa</a> on X, or just drop me an email at <a href="mailto://mdoliwa@gmail.com">mdoliwa@gmail.com</a>
+    </footer>
   </body>
 </html>

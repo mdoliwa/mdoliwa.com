@@ -36,7 +36,7 @@ div.highlighter-rouge {
 
 div.highlight {
   @apply p-4;
-  @apply overflow-x-scroll;
+  @apply overflow-x-auto;
 }
 
 code.highlighter-rouge {
