@@ -40,7 +40,7 @@ div.highlight {
 }
 
 code.highlighter-rouge {
-  @apply p-1 rounded;
+  @apply px-2 py-1 rounded;
   background-color: #818b981f;
 }
 
