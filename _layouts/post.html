@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>{{ page.title }}</h1>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+      </header>
+      {{ content }}
+    </article>
+    <p><a href="{{ "/" | relative_url }}">Back to home</a></p>
+  </body>
+</html>
