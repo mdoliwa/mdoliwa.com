@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
-    <article>
-      <header>
-        <h1>{{ page.title }}</h1>
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-      </header>
-      {{ content }}
-    </article>
-    <p><a href="{{ "/" | relative_url }}">Back to home</a></p>
+    {% include header.html %}
+    <main class="content">
+      <article>
+        <header>
+          <h1>{{ page.title }}</h1>
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+        </header>
+        {{ content }}
+      </article>
+    </main>
   </body>
 </html>

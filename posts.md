@@ -1,9 +1,10 @@
 ---
 layout: default
-title: "Home"
+title: "Posts"
+permalink: /posts/
 ---
 
-## Recent Posts
+## All Posts
 
 <div class="post-list">
 {% for post in site.posts %}
