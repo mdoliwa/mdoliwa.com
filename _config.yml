@@ -1,3 +1,14 @@
 url: "https://mdoliwa.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Marcin Doliwa" # the name of your site
+description: "Personal blog and website of Marcin Doliwa"
+
+author:
+  name: "Marcin Doliwa"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  path: feed.xml
