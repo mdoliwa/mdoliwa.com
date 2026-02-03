@@ -3,9 +3,9 @@ layout: default
 title: "Home"
 ---
 
-Hi, my name is Marcin. I'm a Ruby developer living in Białystok, Poland with my wife and 3 kids.
+Hi, my name is Marcin. I'm a Ruby developer living with my wife and 3 kids in Białystok, Poland.
 
-I love building online projects and this is a place where I write about it (and other random things that currently interest me).
+I have a plan to get lucky by building cool things and writing about them here.
 
 ## Recent Posts
 
